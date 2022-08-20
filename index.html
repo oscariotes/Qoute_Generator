@@ -4,14 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qoute Generator</title>
+    <title>quote Generator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
 </head>
 <body>
+    <!-- Main -->
+    <div class="container" id="container">
+        <!-- quote -->
+        <div class="text" id="text">
+            <i class="fas fa-quote-left"></i>
+            <span class="quote">This is a sample quote</span>
+        </div>
+        <div class="author">
+            <span id="author">By Me</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Send a Tweet!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
     <!-- js script -->
     <script src="script.js"></script>
 </body>
-
 </html>
